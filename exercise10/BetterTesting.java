@@ -35,13 +35,13 @@ public class BetterTesting {
       c.setRadius(r);
       A = c.getSurfaceArea();
       V = c.getVolume();
-      if(isNear(A,a))
+      if(isNear(A, a))
         passed++;
       else {
         System.out.print("FAIL: surfaceArea for radius " + r);
         System.out.println("-- Expected " + a + ", got " + A);
       }
-      if(isNear(V,v))
+      if(isNear(V, v))
         passed++;
       else {
         System.out.print("FAIL: surfaceArea for radius " + r);
