@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane fx:controller="MessengerFXMLController"
+    xmlns:fx="http://javafx.com/fxml/" alignment="center" vgap="20">
+
+    <Label fx:id="myLabel" text="Type your message"
+          GridPane.halignment="RIGHT"
+          GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+
+    <TextField fx:id="tf" text="Graphics the FXML Way!"
+          GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+
+    <Button text="Print Message"
+          GridPane.columnIndex="0" GridPane.rowIndex="2"
+          GridPane.halignment="CENTER"
+          onAction="#handleButtonClickOrWhatever"/>
+</GridPane>
